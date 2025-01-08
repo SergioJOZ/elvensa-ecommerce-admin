@@ -29,7 +29,7 @@ export default function DeleteProductPage() {
   return (
     <Layout>
       <h1 className="text-center">
-        ¿Quieres borrar el producto "{productInfo?.title}"?
+        ¿Quieres borrar el producto &quot;{productInfo?.title}&quot;?
       </h1>
 
       <div className="flex gap-2 justify-center">
